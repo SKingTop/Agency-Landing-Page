@@ -246,3 +246,51 @@ body hr {
 	width: 100%;
 	height: 100%;
 }
+.container_4 {
+	width: 1255px;
+	height: 723px;
+	margin: auto;
+	margin-top: 124px;
+	border: 1px solid green;
+}
+.container_4 h2,
+.container_4 p {
+	margin: 5px;
+}
+.container_4Text {
+	width: 450px;
+	height: 106px;
+	font-size: 15px;
+	line-height: 25px;
+}
+.container_4 hr {
+	width: 130px;
+	height: 2px;
+	border: none;
+	background-color: #ff3f40;
+	margin: 0;
+	margin-left: 5px;
+}
+.ourTeamInfo {
+	width: 100%;
+	height: 458px;
+	border: 1px solid blue;
+	margin-top: 70px;
+}
+.leftPhoto {
+	width: 321px;
+	height: 458px;
+	border: 1px solid orange;
+	float: left;
+}
+.leftPhoto img {
+	width: 100%;
+	height: 100%;
+}
+.personalData {
+	float: left;
+	width: 930px;
+	height: 458px;
+	border: 1px solid black;
+	float: left;
+}
