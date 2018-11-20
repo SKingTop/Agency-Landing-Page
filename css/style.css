@@ -193,7 +193,7 @@ body hr {
 .container_3 {
 	width: 1252px;
 	height: 928px;
-	border: 1px solid #ff3f40;
+	/*border: 1px solid #ff3f40;*/
 	margin: auto;
 	margin-top: 92px;
 	text-align: center;
@@ -214,9 +214,10 @@ body hr {
 .conteiner_3Menu {
 	width: 894px;
 	height: 25px;
-	border: 1px solid #ff3f40;
+	/*border: 1px solid #ff3f40;*/
 	margin: auto;
 	text-align: center;
+	margin-top: 50px;
 }
 .conteiner_3Menu a {
 	color: #737373;
@@ -225,4 +226,23 @@ body hr {
 }
 .conteiner_3Menu a:hover {
 	color: #ff3f40;
+}
+.container_3Items {
+	margin-top: 70px;
+	width: 1252px;
+	height: 600px;
+	/*border: 1px solid green;*/
+}
+.container_3Item {
+	width: 297px;
+	height: 290px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin-right: 7px;
+	margin-left: 8px;
+	margin-bottom: 15px;
+}
+.container_3Item img {
+	width: 100%;
+	height: 100%;
 }
