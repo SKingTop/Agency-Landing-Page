@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+body{
+	width: 100%
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold.ttf);
+	font-weight: bold;
+	overflow: hidden;
+}
+.container_1 {
+	width: 1579px;
+	height: 688px;
+	background-color: #F6F2F2;
+	padding-top: 29px;
+	margin: auto;
+}
+.menu {
+	width: 1249px;
+	height: 89px;
+	margin: 0 auto;
+	background-color: #313030;
+	text-align: center;
+}
+.menu a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: OpenSans-Bold;
+	color: #FFFFFF;
+	padding: 30px 15px;
+	height: 89px;
+}
+.menu a:hover {
+	background-color: #E10606;
+	color: #E0E0E0;
+}
+header {
+	margin: 98px auto;
+	width: 1254px;
+	height: 361px;
+	border: 1px solid red;
+}
+.headerLeftItem {
+	width: 56%;
+	height: 100%;
+	border: 1px solid green;
+	float: left;
+}
+video {
+	width: 44%;
+	height: 100%;
+	float: right;
+}
+h1 {
+	font-weight: normal;
+	font-size: 60px;
+	letter-spacing: 8px;
+	margin-left: 5px;
+}
+p {
+	font-size: 16px;
+	width: 517px;
+	height: 106px;
+	line-height: 35px;
+	margin-left: 5px;
+}
+#contactUsButton {
+	width: 227px;
+	height: 55px;
+	border-radius: 5px;
+	border-style: none;
+	margin-top: 40px;
+	margin-left: 5px;
+	background-color: red;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 12px;
+}
+#contactUsButton:hover {
+	background-color: black;
+}
+#contactUsButton a {
+	font-family: OpenSans-Bold;
+}
+#contactUsButton:hover a {
+	color: red;
+}
+.container_2 {
+	margin: 98px auto;
+	width: 1254px;
+	height: 361px;
+	border: 1px solid blue;
+}
+video {
+	width: 44%;
+	height: 100%;
+}
