@@ -47,12 +47,12 @@ header {
 	margin: 98px auto;
 	width: 1254px;
 	height: 361px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .headerLeftItem {
 	width: 56%;
 	height: 100%;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	float: left;
 }
 video {
@@ -61,12 +61,12 @@ video {
 	float: right;
 }
 h1 {
-	font-weight: normal;
+	font-weight: 800;
 	font-size: 60px;
 	letter-spacing: 8px;
 	margin-left: 5px;
 }
-p {
+.headerLeftItem p {
 	font-size: 16px;
 	width: 517px;
 	height: 106px;
@@ -78,15 +78,16 @@ p {
 	height: 55px;
 	border-radius: 5px;
 	border-style: none;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 5px;
 	background-color: red;
 	font-size: 18px;
 	text-align: center;
 	padding-top: 12px;
+	border: 3px solid red;
 }
 #contactUsButton:hover {
-	background-color: black;
+	background-color: white;
 }
 #contactUsButton a {
 	font-family: OpenSans-Bold;
@@ -100,7 +101,64 @@ p {
 	height: 361px;
 	border: 1px solid blue;
 }
-video {
-	width: 44%;
+.container_2LeftItem {
+	width: 45%;
 	height: 100%;
+	border: 1px solid red;
+	float: left;
+}
+.container_2LeftItem h2 {
+	font-size: 45px;
+	word-spacing: 5px;
+	color: #666666;
+	margin-left: 5px;
+}
+.container_2LeftItem p {
+	display: block;
+	height: 185px;
+	width: 100%;
+	line-height: 25px;
+	margin-left: 5px;
+}
+#learnMoreButton {
+	box-sizing: border-box;
+	width: 227px;
+	height: 55px;
+	border-radius: 5px;
+	border-style: none;
+	margin-left: 5px;
+	background-color: white;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 12px;
+	border: 3px solid red;
+}
+#learnMoreButton:hover {
+	background-color: red;
+}
+#learnMoreButton a {
+	font-family: OpenSans-Bold;
+	color: red;
+}
+#learnMoreButton:hover a {
+	color: white;
+}
+.container_2RightItem{
+	display: inline-block;
+	width: 55%;
+	height: 100%;
+	clear: both;
+}
+.container_2RightItem_1,
+.container_2RightItem_2,
+.container_2RightItem_3,
+.container_2RightItem_4 {
+	width: 50%;
+	height: 50%;
+	border: 1px solid silver;
+	float: left;
+}
+.container_2RightItem_icon {
+	width: 100%;
+	height: 45px;
 }
