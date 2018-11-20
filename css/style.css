@@ -11,6 +11,9 @@ a {
 	text-decoration: none;
 	color: white;
 }
+p {
+	color: #737373;
+}
 @font-face {
 	font-family: OpenSans-Bold;
 	src: url(../fonts/OpenSans-Bold.ttf);
@@ -251,7 +254,7 @@ body hr {
 	height: 723px;
 	margin: auto;
 	margin-top: 124px;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 .container_4 h2,
 .container_4 p {
@@ -274,7 +277,7 @@ body hr {
 .ourTeamInfo {
 	width: 100%;
 	height: 458px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin-top: 70px;
 }
 .leftPhoto {
@@ -289,8 +292,34 @@ body hr {
 }
 .personalData {
 	float: left;
-	width: 930px;
+	width: 930px;/*/////////////////934/////////////////*/
 	height: 458px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
+	padding-left: 5%;
+}
+.personalData h3 {
+	font-weight: normal;
+	font-size: 30px;
+	margin-top: 5px;
+}
+.personalDataText {
+	width: 671px;
+	height: 106px;
+	/*border: 1px solid red;*/
+}
+.personalDataText p {
+	display: block;
+	width: 100%;
+	height:70px;
+	color: #737373;
+}
+.personalDataLinks {
+	width: 371px;
+	height: 20px;
+}
+.personalDataLinks a {
+	color: #737373;
+	font-style: italic;
+	margin: 0 10px;
 }
