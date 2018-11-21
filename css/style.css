@@ -267,7 +267,7 @@ body hr {
 	font-size: 15px;
 	line-height: 25px;
 }
-.container_4 hr {
+.container_4 hr, {
 	width: 130px;
 	height: 2px;
 	border: none;
@@ -417,12 +417,99 @@ body hr {
 .container_6 {
 	width: 1415px;
 	margin-top: 92px;
-	height: 784px;
+	height: 760px;
 	border: 1px solid red;
 	margin-left: 162px;
 }
 .container_6Text {
 	width: 726px;
 	height: 203px;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
+}
+.container_6Text h2 {
+	margin-bottom: 40px;
+}
+.container_6 p {
+	margin-left: 5px;
+}
+.container_6 hr {
+	width: 130px;
+	height: 2px;
+	border: none;
+	background-color: #ff2d2d;
+	margin: 0;
+	margin-left: 5px;
+	margin-bottom: 76px;
+}
+#nameField {
+	outline: none;
+	width: 335px;
+	height: 65px;
+	border: none;
+	border: 2px solid #e5e5e5;
+	background-color: #e5e5e5;
+	margin-left: 5px;
+	padding-left: 10px;
+	margin-right: 54px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+#emailField {
+	outline: none;
+	width: 335px;
+	height: 65px;
+	border: none;
+	border: 2px solid #e5e5e5;
+	background-color: #e5e5e5;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+#feedbackForm {
+	width: 773px;
+	height: 475px;
+	float: left;
+}
+textarea {
+	outline: none;
+	font-size: 16px;
+	resize: none;
+	margin-top: 46px;
+	width: 732px;
+	height: 245px;
+	border: 2px solid #e5e5e5;
+	background-color: #e5e5e5;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+textarea:focus,
+#emailField:focus,
+#nameField:focus {
+	border: 2px solid #ff2d2d;
+}
+#feedbackButton {
+	margin-top: 45px;
+	outline: none;
+	width: 732px;
+	margin-left: 5px;
+	border: 2px solid #ff2d2d;
+	background-color: #ff2d2d;
+	height: 68px;
+	font-family: OpenSans-Bold;
+	font-size: 18px;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+#feedbackButton:hover {
+	background-color: #FFFFFF;
+	color: #ff2d2d;
+}
+.contactInfoContainer {
+	width: 577px;
+	height: 481px;
+	border: 1px solid black;
+	margin-left: 840px;
+	background-color: #000000;
 }
