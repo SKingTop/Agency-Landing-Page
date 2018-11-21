@@ -4,9 +4,9 @@
 	box-sizing: border-box;
 	font-family: Arial;
 }
-body{
-	width: 100%
-}
+/*body{
+	width: 1577px;
+}*/
 a {
 	text-decoration: none;
 	color: white;
@@ -21,10 +21,14 @@ p {
 	overflow: hidden;
 }
 .container_1 {
-	width: 1579px;
+	width: 1577px;
 	height: 688px;
 	background-color: #F6F2F2;
 	padding-top: 29px;
+	margin: auto;
+}
+.containerForContainer {
+	width: 1577px;
 	margin: auto;
 }
 .menu {
@@ -343,10 +347,82 @@ body hr {
 	height: 100%;
 }
 .container_5 {
-	width: 1579px;
+	width: 1577px;
 	height: 514px;
-	/*border: 1px solid red;*/
+/*	border: 1px solid red;*/
 	margin: auto;
 	margin-top: 90px;
+	background-color: #f5f0dd;
+	padding-top: 128px;
 	/*background-image: url(../icon/background.jpg);*/
+}
+.container_5Text {
+	width: 1105px;
+	height: 250px;
+	margin: auto;
+/*	border: 1px solid green;*/
+	
+}
+.container_5Text h2 {
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+.container_5Text p {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+.subscribeFormInput {
+	width: 757px;
+	height: 79px;
+/*	border: 1px solid black;*/
+	margin: auto;
+	margin-top: 32px;
+	clear: both;
+}
+#subscribeEMail {
+	width: 517px;
+	height: 75px;
+	border: 2px solid #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	margin-right: 22px;
+	float: left;
+	font-size: 25px;
+	padding-left: 10px;
+}
+#subscribeEMail:focus {
+	outline: none;
+	border: 2px solid #ff2d2d;
+}
+#subscribeButton {
+	width: 210px;
+	height: 75px;
+	border: 2px solid #ff2d2d;
+	background-color: #ff2d2d;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: OpenSans-Bold;
+	font-size: 18px;
+}
+#subscribeButton:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #ff2d2d;
+	color: #ff2d2d;
+	cursor: pointer;
+}
+.container_6 {
+	width: 1415px;
+	margin-top: 92px;
+	height: 784px;
+	border: 1px solid red;
+	margin-left: 162px;
+}
+.container_6Text {
+	width: 726px;
+	height: 203px;
+	border: 1px solid green;
 }
