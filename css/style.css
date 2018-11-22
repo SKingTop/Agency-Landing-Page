@@ -26,13 +26,8 @@ p {
 	height: 688px;
 	background-color: #F6F2F2;
 	padding-top: 29px;
-	/*margin: auto;*/
 	margin: 0;
 }
-/*.containerForContainer {
-	width: 1577px;
-	margin: auto;
-}*/
 .menu {
 	width: 1249px;
 	height: 89px;
@@ -56,12 +51,10 @@ header {
 	margin: 98px auto;
 	width: 1254px;
 	height: 361px;
-	/*border: 1px solid #ff3f40;*/
 }
 .headerLeftItem {
 	width: 56%;
 	height: 100%;
-	/*border: 1px solid green;*/
 	float: left;
 }
 iframe {
@@ -73,14 +66,12 @@ h1 {
 	font-weight: 800;
 	font-size: 60px;
 	letter-spacing: 8px;
-	margin-left: 5px;
 }
 .headerLeftItem p {
 	font-size: 16px;
 	width: 517px;
 	height: 106px;
 	line-height: 35px;
-	margin-left: 5px;
 }
 #contactUsButton {
 	width: 227px;
@@ -88,7 +79,6 @@ h1 {
 	border-radius: 5px;
 	border-style: none;
 	margin-top: 20px;
-	margin-left: 5px;
 	background-color: #ff3f40;
 	font-size: 18px;
 	text-align: center;
@@ -105,30 +95,24 @@ h1 {
 	color: #ff3f40;
 }
 .container_2 {
-	/*margin: 98px auto;*/
 	margin-top: 98px;
 	margin-left: 161px;
 	width: 1254px;
 	height: 595px;
-	/*border: 1px solid blue;*/
-	/*margin-bottom: 0;*/
 }
 .container_2LeftItem {
 	width: 45%;
 	height: 100%;
-	/*border: 1px solid #ff3f40;*/
 	float: left;
 }
 h2 {
 	font-size: 45px;
 	word-spacing: 5px;
 	color: #585858;
-	margin-left: 5px;
 }
 .container_2LeftItem p,
 .container_2RightItem p {
 	line-height: 25px;
-	margin-left: 5px;
 }
 .container_2LeftItem p {
 	display: block;
@@ -144,7 +128,6 @@ h2 {
 	height: 55px;
 	border-radius: 5px;
 	border-style: none;
-	margin-left: 5px;
 	background-color: white;
 	font-size: 18px;
 	text-align: center;
@@ -171,7 +154,6 @@ h2 {
 .container_2RightItem{
 	width: 50%;
 	height: 40%;
-/*	border: 1px solid silver;*/
 	float: left;
 }
 .container_2RightItem_icon {
@@ -187,7 +169,6 @@ h2 {
 h3 {
 	font-weight: 650;
 	font-size: 20px;
-	margin-left: 5px;
 	color: #666666;
 	margin-bottom: 10px;
 }
@@ -201,7 +182,6 @@ body hr {
 .container_3 {
 	width: 1252px;
 	height: 928px;
-	/*border: 1px solid #ff3f40;*/
 	margin-left: 162px;
 	margin-top: 92px;
 	text-align: center;
@@ -222,7 +202,6 @@ body hr {
 .conteiner_3Menu {
 	width: 894px;
 	height: 25px;
-	/*border: 1px solid #ff3f40;*/
 	margin: auto;
 	text-align: center;
 	margin-top: 50px;
@@ -239,12 +218,10 @@ body hr {
 	margin-top: 70px;
 	width: 1252px;
 	height: 600px;
-	/*border: 1px solid green;*/
 }
 .container_3Item {
 	width: 297px;
 	height: 290px;
-	/*border: 1px solid blue;*/
 	float: left;
 	margin-right: 7px;
 	margin-left: 8px;
@@ -257,10 +234,8 @@ body hr {
 .container_4 {
 	width: 1255px;
 	height: 723px;
-	/*margin: auto;*/
 	margin-left: 152px;
 	margin-top: 124px;
-	/*border: 1px solid green;*/
 }
 .container_4 h2,
 .container_4 p {
@@ -278,18 +253,15 @@ body hr {
 	border: none;
 	background-color: #ff3f40;
 	margin: 0;
-	margin-left: 5px;
 }
 .ourTeamInfo {
 	width: 100%;
 	height: 458px;
-	/*border: 1px solid blue;*/
 	margin-top: 70px;
 }
 .leftPhoto {
 	width: 321px;
 	height: 460px;
-	/*border: 1px solid orange;*/
 	float: left;
 }
 .leftPhoto img {
@@ -298,9 +270,8 @@ body hr {
 }
 .personalData {
 	float: left;
-	width: 930px;/*/////////////////934/////////////////*/
+	width: 934px;/*/////////////////934/////////////////*/
 	height: 460px;
-	/*border: 1px solid black;*/
 	float: left;
 	padding-left: 5%;
 	position: relative;
@@ -313,7 +284,6 @@ body hr {
 .personalDataText {
 	width: 671px;
 	height: 106px;
-	/*border: 1px solid red;*/
 }
 .personalDataText p {
 	display: block;
@@ -336,14 +306,12 @@ body hr {
 .rightPhotoContainer {
 	width: 850px;
 	height: 214px;
-	/*border: 1px solid red;*/
 	position: absolute;
 	bottom: 0px;
 }
 .rightPhoto {
 	width: 196px;
 	height: 214px;
-	/*border: 1px solid green;*/
 	display: inline-block;
 	margin: 0 5px;
 }
@@ -354,8 +322,6 @@ body hr {
 .container_5 {
 	width: 1577px;
 	height: 514px;
-/*	border: 1px solid red;*/
-	/*margin: auto;*/
 	margin-left: 0;
 	margin-top: 90px;
 	background-color: #f5f0dd;
@@ -366,8 +332,6 @@ body hr {
 	width: 1105px;
 	height: 250px;
 	margin: auto;
-/*	border: 1px solid green;*/
-	
 }
 .container_5Text h2 {
 	font-size: 42px;
@@ -384,7 +348,6 @@ body hr {
 .subscribeFormInput {
 	width: 757px;
 	height: 79px;
-/*	border: 1px solid black;*/
 	margin: auto;
 	margin-top: 32px;
 	clear: both;
@@ -393,7 +356,7 @@ body hr {
 	width: 517px;
 	height: 75px;
 	border: 2px solid #FFFFFF;
-	/*border: none;*/
+	border: none;
 	border-radius: 10px;
 	margin-right: 22px;
 	float: left;
@@ -413,6 +376,7 @@ body hr {
 	color: #FFFFFF;
 	font-family: OpenSans-Bold;
 	font-size: 18px;
+	outline: none;
 }
 #subscribeButton:hover {
 	background-color: #FFFFFF;
@@ -424,20 +388,15 @@ body hr {
 	width: 1417px;
 	margin-top: 92px;
 	height: 760px;
-/*	border: 1px solid red;*/
 	margin-left: 162px;
 	clear: both;
 }
 .container_6Text {
 	width: 726px;
 	height: 203px;
-	/*border: 1px solid green;*/
 }
 .container_6Text h2 {
 	margin-bottom: 40px;
-}
-.container_6 p {
-	margin-left: 5px;
 }
 .container_6 hr {
 	width: 130px;
@@ -445,7 +404,6 @@ body hr {
 	border: none;
 	background-color: #ff2d2d;
 	margin: 0;
-	margin-left: 5px;
 	margin-bottom: 76px;
 }
 #nameField {
@@ -455,7 +413,6 @@ body hr {
 	border: none;
 	border: 2px solid #e5e5e5;
 	background-color: #e5e5e5;
-	/*margin-left: 5px;*/
 	padding-left: 52px;
 	margin-right: 54px;
 	font-size: 16px;
@@ -489,7 +446,6 @@ textarea {
 	padding-left: 52px;
 	padding-top: 33px;
 	border-radius: 5px;
-	/*margin-left: 5px;*/
 }
 textarea:focus,
 #emailField:focus,
@@ -500,7 +456,6 @@ textarea:focus,
 	margin-top: 45px;
 	outline: none;
 	width: 732px;
-	/*margin-left: 5px;*/
 	border: 2px solid #ff2d2d;
 	background-color: #ff2d2d;
 	height: 68px;
