@@ -4,9 +4,10 @@
 	box-sizing: border-box;
 	font-family: Arial;
 }
-/*body{
+body{
 	width: 1577px;
-}*/
+	margin: auto;
+}
 a {
 	text-decoration: none;
 	color: white;
@@ -25,12 +26,13 @@ p {
 	height: 688px;
 	background-color: #F6F2F2;
 	padding-top: 29px;
-	margin: auto;
+	/*margin: auto;*/
+	margin: 0;
 }
-.containerForContainer {
+/*.containerForContainer {
 	width: 1577px;
 	margin: auto;
-}
+}*/
 .menu {
 	width: 1249px;
 	height: 89px;
@@ -103,11 +105,13 @@ h1 {
 	color: #ff3f40;
 }
 .container_2 {
-	margin: 98px auto;
+	/*margin: 98px auto;*/
+	margin-top: 98px;
+	margin-left: 161px;
 	width: 1254px;
 	height: 595px;
 	/*border: 1px solid blue;*/
-	margin-bottom: 0;
+	/*margin-bottom: 0;*/
 }
 .container_2LeftItem {
 	width: 45%;
@@ -198,7 +202,7 @@ body hr {
 	width: 1252px;
 	height: 928px;
 	/*border: 1px solid #ff3f40;*/
-	margin: auto;
+	margin-left: 162px;
 	margin-top: 92px;
 	text-align: center;
 }
@@ -253,7 +257,8 @@ body hr {
 .container_4 {
 	width: 1255px;
 	height: 723px;
-	margin: auto;
+	/*margin: auto;*/
+	margin-left: 152px;
 	margin-top: 124px;
 	/*border: 1px solid green;*/
 }
@@ -267,7 +272,7 @@ body hr {
 	font-size: 15px;
 	line-height: 25px;
 }
-.container_4 hr, {
+.container_4 hr {
 	width: 130px;
 	height: 2px;
 	border: none;
@@ -350,7 +355,8 @@ body hr {
 	width: 1577px;
 	height: 514px;
 /*	border: 1px solid red;*/
-	margin: auto;
+	/*margin: auto;*/
+	margin-left: 0;
 	margin-top: 90px;
 	background-color: #f5f0dd;
 	padding-top: 128px;
@@ -387,12 +393,12 @@ body hr {
 	width: 517px;
 	height: 75px;
 	border: 2px solid #FFFFFF;
-	border: none;
+	/*border: none;*/
 	border-radius: 10px;
 	margin-right: 22px;
 	float: left;
-	font-size: 25px;
-	padding-left: 10px;
+	font-size: 16px;
+	padding-left: 35px;
 }
 #subscribeEMail:focus {
 	outline: none;
@@ -415,11 +421,12 @@ body hr {
 	cursor: pointer;
 }
 .container_6 {
-	width: 1415px;
+	width: 1417px;
 	margin-top: 92px;
 	height: 760px;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	margin-left: 162px;
+	clear: both;
 }
 .container_6Text {
 	width: 726px;
@@ -448,8 +455,8 @@ body hr {
 	border: none;
 	border: 2px solid #e5e5e5;
 	background-color: #e5e5e5;
-	margin-left: 5px;
-	padding-left: 10px;
+	/*margin-left: 5px;*/
+	padding-left: 52px;
 	margin-right: 54px;
 	font-size: 16px;
 	border-radius: 5px;
@@ -461,7 +468,7 @@ body hr {
 	border: none;
 	border: 2px solid #e5e5e5;
 	background-color: #e5e5e5;
-	padding-left: 10px;
+	padding-left: 52px;
 	border-radius: 5px;
 	font-size: 16px;
 }
@@ -479,10 +486,10 @@ textarea {
 	height: 245px;
 	border: 2px solid #e5e5e5;
 	background-color: #e5e5e5;
-	padding-left: 10px;
-	padding-top: 10px;
+	padding-left: 52px;
+	padding-top: 33px;
 	border-radius: 5px;
-	margin-left: 5px;
+	/*margin-left: 5px;*/
 }
 textarea:focus,
 #emailField:focus,
@@ -493,7 +500,7 @@ textarea:focus,
 	margin-top: 45px;
 	outline: none;
 	width: 732px;
-	margin-left: 5px;
+	/*margin-left: 5px;*/
 	border: 2px solid #ff2d2d;
 	background-color: #ff2d2d;
 	height: 68px;
@@ -504,12 +511,64 @@ textarea:focus,
 }
 #feedbackButton:hover {
 	background-color: #FFFFFF;
+	cursor: pointer;
 	color: #ff2d2d;
 }
 .contactInfoContainer {
 	width: 577px;
 	height: 481px;
-	border: 1px solid black;
-	margin-left: 840px;
-	background-color: #000000;
+	background-color: #2d2d2d;
+	float: left;
+	margin-left: 107px;
+	margin-top: 285px;
+}
+.container_6LeftSide {
+	height: 783px;
+	width: 732px;
+	float: left;
+}
+.contactInfo {
+	width: 286px;
+	height: 196px;
+	margin-left: 79px;
+	margin-top: 139px;
+}
+.contactInfo h4 {
+	font-size: 18px;
+	margin-bottom: 36px;
+	color: #FFFFFF;
+}
+.contactInfo p {
+	font-size: 15px;
+	margin-bottom: 27px;
+	color: #FFFFFF;
+}
+footer {
+	width: 1583px;
+	height: 111px;
+	background-color: #313030;
+	margin-top: 110px;
+	padding-top: 56px;
+}
+.footerContent {
+	width: 1249px;
+	height: 33px;
+	margin-left: 168px;
+}
+.footerLeftContent {
+	width: 350px;
+	height: 17px;
+	padding-top: 8px;
+	font-size: 16px;
+	float: left;
+	color: #b8b8b8;
+}
+.footerLinks {
+	width: 185px;
+	height: 33px;
+	float: right;
+}
+.footerLinks img {
+	width: 33px;
+	height: 33px;
 }
