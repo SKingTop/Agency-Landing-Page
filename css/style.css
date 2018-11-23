@@ -1,16 +1,19 @@
+/*General styles/Общие стили*//*//////////////////////////////////////////////////////////////////////////////////////*/
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 	font-family: Arial;
+	transition: 0.3s;
 }
 body{
 	width: 1577px;
-	margin: auto;
+	margin: 0px auto;
 }
 a {
 	text-decoration: none;
 	color: white;
+	/*font-family: OpenSans-Bold, Arial;*/
 }
 p {
 	color: #737373;
@@ -18,28 +21,26 @@ p {
 @font-face {
 	font-family: OpenSans-Bold;
 	src: url(../fonts/OpenSans-Bold.ttf);
-	font-weight: bold;
-	overflow: hidden;
 }
+/*Container 1/ Контейнер 1*//*//////////////////////////////////////////////////////////////////////////////////////*/
 .container_1 {
 	width: 1577px;
 	height: 688px;
 	background-color: #F6F2F2;
 	padding-top: 29px;
-	margin: 0;
+	margin: 0px;
 }
 .menu {
 	width: 1249px;
 	height: 89px;
-	margin: 0 auto;
+	margin: 0px auto;
 	background-color: #313030;
 	text-align: center;
 }
 .menu a {
 	display: inline-block;
-	text-decoration: none;
-	font-family: OpenSans-Bold;
 	color: #FFFFFF;
+	font-family: OpenSans-Bold, Arial;
 	padding: 30px 15px;
 	height: 89px;
 }
@@ -57,6 +58,13 @@ header {
 	height: 100%;
 	float: left;
 }
+
+.headerLeftItem p {
+	font-size: 16px;
+	width: 517px;
+	height: 106px;
+	line-height: 35px;
+}
 iframe {
 	width: 44%;
 	height: 100%;
@@ -66,12 +74,6 @@ h1 {
 	font-weight: 800;
 	font-size: 60px;
 	letter-spacing: 8px;
-}
-.headerLeftItem p {
-	font-size: 16px;
-	width: 517px;
-	height: 106px;
-	line-height: 35px;
 }
 #contactUsButton {
 	width: 227px;
@@ -89,7 +91,7 @@ h1 {
 	background-color: white;
 }
 #contactUsButton a {
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, Arial;
 }
 #contactUsButton:hover a {
 	color: #ff3f40;
@@ -138,7 +140,7 @@ h2 {
 	background-color: #ff3f40;
 }
 #learnMoreButton a {
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, Arial;
 	color: #ff3f40;
 }
 #learnMoreButton:hover a {
@@ -252,7 +254,7 @@ body hr {
 	height: 2px;
 	border: none;
 	background-color: #ff3f40;
-	margin: 0;
+	margin-left: 0px;
 }
 .ourTeamInfo {
 	width: 100%;
@@ -263,6 +265,7 @@ body hr {
 	width: 321px;
 	height: 460px;
 	float: left;
+	position: relative;
 }
 .leftPhoto img {
 	width: 100%;
@@ -314,10 +317,27 @@ body hr {
 	height: 214px;
 	display: inline-block;
 	margin: 0 5px;
+	position: relative;
 }
 .rightPhoto img {
 	width: 100%;
 	height: 100%;
+}
+.personName {
+	transition: 0.8s;
+	width: 100%;
+	height: 37px;
+	background-color: grey;
+	opacity: 0;
+	position: absolute;
+	color: #FFF;
+	padding-top: 10px;
+	bottom: 0px;
+	text-align: center;
+}
+.rightPhoto:hover .personName,
+.leftPhoto:hover .personName {
+ 	opacity: 0.6;
 }
 .container_5 {
 	width: 1577px;
@@ -326,7 +346,8 @@ body hr {
 	margin-top: 90px;
 	background-color: #f5f0dd;
 	padding-top: 128px;
-	/*background-image: url(../icon/background.jpg);*/
+	background-image: url(..//icon//city.jpg);
+	background-repeat: round;
 }
 .container_5Text {
 	width: 1105px;
@@ -356,7 +377,7 @@ body hr {
 	width: 517px;
 	height: 75px;
 	border: 2px solid #FFFFFF;
-	border: none;
+	/*border: none;*/
 	border-radius: 10px;
 	margin-right: 22px;
 	float: left;
@@ -374,7 +395,7 @@ body hr {
 	background-color: #ff2d2d;
 	border-radius: 10px;
 	color: #FFFFFF;
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, Arial;
 	font-size: 18px;
 	outline: none;
 }
@@ -403,7 +424,7 @@ body hr {
 	height: 2px;
 	border: none;
 	background-color: #ff2d2d;
-	margin: 0;
+	margin-left: 0px;
 	margin-bottom: 76px;
 }
 #nameField {
@@ -459,7 +480,7 @@ textarea:focus,
 	border: 2px solid #ff2d2d;
 	background-color: #ff2d2d;
 	height: 68px;
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, Arial;
 	font-size: 18px;
 	border-radius: 5px;
 	color: #FFFFFF;
@@ -499,7 +520,7 @@ textarea:focus,
 	color: #FFFFFF;
 }
 footer {
-	width: 1583px;
+	width: 100%;
 	height: 111px;
 	background-color: #313030;
 	margin-top: 110px;
@@ -526,4 +547,5 @@ footer {
 .footerLinks img {
 	width: 33px;
 	height: 33px;
+	border: none;
 }
