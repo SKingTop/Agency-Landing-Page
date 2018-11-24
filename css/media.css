@@ -131,7 +131,10 @@ footer {
 	width: 1257px;
 }
 }
-@media only screen and (max-width: 1024px){/*////////////////////////////@Media 1024px///////////////////////////////*/
+@media only screen and (max-width: 1024px) {/*////////////////////////////@Media 1024px///////////////////////////////*/
+* {
+transition: 0s;
+}
 body{
 	width: 100%;
 }
@@ -143,6 +146,10 @@ body{
 .menu {
 	width: 100%;
 }
+/* .menu a:active {
+	background-color: #ff3f40; 5555555555555555555555555555555555
+	color: #E0E0E0;
+} */
 header {
 	width: 100%;
 	height: 730px;
@@ -175,7 +182,6 @@ h1 {
 	height: 700px;
 	position: relative;
 }
-}
 .container_2LeftItem {
 	width: 100%;
 	float: none;
@@ -201,5 +207,67 @@ h1 {
 	left: 0;
 	top: 180px;
 	text-align: center;
+}
+.container_3 {
+	width: 100%;
+	height: 800px;
+}
+.container_3Items {
+	width: 100%;
+	height: 400px;
+	padding: 0 65px;
+}
+.container_3Item {
+	width: 197px;
+	height: 190px;
+}
+.container_3Item img {
+	width: 100%;
+	height: 100%;
+}
+.conteiner_3Menu {
+	width: 800px;
+}
+.conteiner_3Menu a {
+	margin: 0 14px;
+}
+.container_4 {
+	width: 100%;
+	height: 723px;
+}
+.container_4 h2,
+.container_4 p,
+.container_4 hr {
+	margin-left: 55px;
+}
+.ourTeamInfo {
+	width: 100%;
+	height: 358px;
+	margin-top: 30px;
+}
+.leftPhoto {
+	width: 221px;
+	height: 360px;
+	float: left;
+	position: relative;
+	margin-left: 55px;
+}
+.personalData {
+	float: left;
+	width: 700px;
+	height: 360px;
+	position: relative;
+}
+.personalData p,
+.personalData h3 {
+	margin-left: 10px;
+}
+.rightPhotoContainer {
+	width: 700px;
+	height: 164px;
+}
+.rightPhoto {
+	width: 146px;
+	height: 164px;
 }
 }
