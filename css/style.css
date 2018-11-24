@@ -1,4 +1,5 @@
-/*General styles/Общие стили*//*////////////////////////////////////////////////*/
+/*CSS FOR 1920px*/
+/*GeneraPXstyles/Общие стили*//*////////////////////////////////////////////////*/
 * {
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +11,7 @@
 	transition: 0.3s;
 }
 body{
-	width: 1577px;
+	width: 1900px;
 	margin: 0px auto;
 }
 a {
@@ -26,7 +27,7 @@ p {
 }
 /*Container 1/ Контейнер 1*//*/////////////////////////////////////////////*/
 .container_1 {
-	width: 1577px;
+	width: 1900px;
 	height: 688px;
 	background-color: #F6F2F2;
 	padding-top: 29px;
@@ -94,6 +95,7 @@ h1 {
 }
 #contactUsButton:hover {
 	background-color: white;
+	cursor: pointer;
 }
 #contactUsButton a {
 	font-family: OpenSans-Bold, Arial;
@@ -103,8 +105,8 @@ h1 {
 }
 /*Container 2/ Контейнер 2*//*////////////////////////////////////////////////////////*/
 .container_2 {
+	margin: auto;
 	margin-top: 98px;
-	margin-left: 161px;
 	width: 1254px;
 	height: 595px;
 }
@@ -181,6 +183,7 @@ h2 {
 }
 #learnMoreButton:hover {
 	background-color: #ff3f40;
+	cursor: pointer;
 }
 #learnMoreButton a {
 	font-family: OpenSans-Bold, Arial;
@@ -193,7 +196,7 @@ h2 {
 .container_3 {
 	width: 1252px;
 	height: 928px;
-	margin-left: 162px;
+	margin: auto;
 	margin-top: 92px;
 	text-align: center;
 }
@@ -248,7 +251,7 @@ h2 {
 .container_4 {
 	width: 1255px;
 	height: 723px;
-	margin-left: 152px;
+	margin: auto;
 	margin-top: 124px;
 }
 .container_4 h2,
@@ -357,9 +360,11 @@ h2 {
 }
 /*Container 5/ Контейнер 5*//*/////////////////////////////////////////*/
 .container_5 {
-	width: 1577px;
+	margin: auto;
+	width: 1900px;
+	/*width: 1577px;*/
 	height: 514px;
-	margin-left: 0;
+	/*margin-left: 0;*/
 	margin-top: 90px;
 	background-color: #f5f0dd;
 	padding-top: 128px;
@@ -424,10 +429,10 @@ h2 {
 }
 /*Container 6/ Контейнер 6*//*/////////////////////////////////////////////////////*/
 .container_6 {
-	width: 1417px;
+	width: 1565px;
 	margin-top: 92px;
 	height: 760px;
-	margin-left: 162px;
+	margin-left: 335px;
 	clear: both;
 }
 .container_6LeftSide {
@@ -516,7 +521,7 @@ textarea:focus,
 }
 /*Container 6 contactInfo/ Контейнер 6 Контактная информация*//*/////////////////////////////////////*/
 .contactInfoContainer {
-	width: 577px;
+	width: 725px;
 	height: 481px;
 	background-color: #2d2d2d;
 	float: left;
@@ -541,14 +546,15 @@ textarea:focus,
 }
 /*Footer/ Футер*//*//////////////////////////////////////////////////////////////////////////////////////*/
 footer {
-	width: 100%;
+	width: 1900px;
 	height: 111px;
 	background-color: #313030;
 	margin-top: 110px;
 	padding-top: 56px;
 }
 .footerContent {
-	width: 1249px;
+	width: 1649px;
+	/*width: 1249px;*/
 	height: 33px;
 	margin-left: 168px;
 }
@@ -571,3 +577,4 @@ footer {
 	height: 33px;
 	border: none;
 }
+@import url(media.css);

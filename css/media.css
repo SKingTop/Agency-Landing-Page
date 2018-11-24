@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1600px){/*////////////////////////////@Media 1600px///////////////////////////////*/
+	body{
+	width: 1577px;
+}
+.container_1 {
+	width: 1577px;*
+}
+.container_5 {
+	width: 1577px;
+}
+.container_6 {
+	width: 1417px;
+	margin-left: 162px;
+}
+.contactInfoContainer {
+	width: 577px;
+}
+footer {
+	width: 1577px;
+}
+.footerContent {
+	width: 1249px;
+}
+}
