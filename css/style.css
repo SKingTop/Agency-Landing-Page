@@ -1,9 +1,12 @@
-/*General styles/Общие стили*//*//////////////////////////////////////////////////////////////////////////////////////*/
+/*General styles/Общие стили*//*////////////////////////////////////////////////*/
 * {
 	margin: 0px;
 	padding: 0px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	font-family: Arial;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 }
 body{
@@ -13,7 +16,6 @@ body{
 a {
 	text-decoration: none;
 	color: white;
-	/*font-family: OpenSans-Bold, Arial;*/
 }
 p {
 	color: #737373;
@@ -22,7 +24,7 @@ p {
 	font-family: OpenSans-Bold;
 	src: url(../fonts/OpenSans-Bold.ttf);
 }
-/*Container 1/ Контейнер 1*//*//////////////////////////////////////////////////////////////////////////////////////*/
+/*Container 1/ Контейнер 1*//*/////////////////////////////////////////////*/
 .container_1 {
 	width: 1577px;
 	height: 688px;
@@ -30,6 +32,7 @@ p {
 	padding-top: 29px;
 	margin: 0px;
 }
+/*Container 1 Menu/ Контейнер 1 Меню*//*/////////////////////////////////////////////////////////////////*/
 .menu {
 	width: 1249px;
 	height: 89px;
@@ -48,6 +51,7 @@ p {
 	background-color: #ff3f40;
 	color: #E0E0E0;
 }
+/*Container 1 Header/ Контейнер 1 Голова*//*//////////////////////////////////////////////*/
 header {
 	margin: 98px auto;
 	width: 1254px;
@@ -58,13 +62,13 @@ header {
 	height: 100%;
 	float: left;
 }
-
 .headerLeftItem p {
 	font-size: 16px;
 	width: 517px;
 	height: 106px;
 	line-height: 35px;
 }
+/*Container 1 Video/ Контейнер 1 Видео*//*//////////////////////////////////////////////////////////////*/
 iframe {
 	width: 44%;
 	height: 100%;
@@ -75,6 +79,7 @@ h1 {
 	font-size: 60px;
 	letter-spacing: 8px;
 }
+/*Container 1 contactUsButton/ Контейнер 1 Кнопка "Contact Us"*//*//////////////////////////////////////////////////*/
 #contactUsButton {
 	width: 227px;
 	height: 55px;
@@ -96,6 +101,7 @@ h1 {
 #contactUsButton:hover a {
 	color: #ff3f40;
 }
+/*Container 2/ Контейнер 2*//*////////////////////////////////////////////////////////*/
 .container_2 {
 	margin-top: 98px;
 	margin-left: 161px;
@@ -106,11 +112,6 @@ h1 {
 	width: 45%;
 	height: 100%;
 	float: left;
-}
-h2 {
-	font-size: 45px;
-	word-spacing: 5px;
-	color: #585858;
 }
 .container_2LeftItem p,
 .container_2RightItem p {
@@ -123,28 +124,6 @@ h2 {
 }
 .container_2RightItem p {
 	width: 90%;
-}
-#learnMoreButton {
-	box-sizing: border-box;
-	width: 227px;
-	height: 55px;
-	border-radius: 5px;
-	border-style: none;
-	background-color: white;
-	font-size: 18px;
-	text-align: center;
-	padding-top: 12px;
-	border: 3px solid #ff3f40;
-}
-#learnMoreButton:hover {
-	background-color: #ff3f40;
-}
-#learnMoreButton a {
-	font-family: OpenSans-Bold, Arial;
-	color: #ff3f40;
-}
-#learnMoreButton:hover a {
-	color: white;
 }
 .container_2RightItems{
 	display: inline-block;
@@ -174,13 +153,43 @@ h3 {
 	color: #666666;
 	margin-bottom: 10px;
 }
-body hr {
+body hr { /* Серяа горизонтальная линия между контейнерами */
 	width: 85%;
 	height: 1px;
 	background-color: lightgrey;
 	margin: auto;
 	border: none;
 }
+h2 {
+	font-size: 45px;
+	word-spacing: 5px;
+	color: #585858;
+}
+/*Container 2 learnMoreButton/ Контейнер 2 Кнопка "Learn More"*//*///////////////////////////////////////////*/
+#learnMoreButton {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 227px;
+	height: 55px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: white;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 12px;
+	border: 3px solid #ff3f40;
+}
+#learnMoreButton:hover {
+	background-color: #ff3f40;
+}
+#learnMoreButton a {
+	font-family: OpenSans-Bold, Arial;
+	color: #ff3f40;
+}
+#learnMoreButton:hover a {
+	color: white;
+}
+/*Container 3/ Контейнер 3*//*/////////////////////////////////////////////////*/
 .container_3 {
 	width: 1252px;
 	height: 928px;
@@ -201,6 +210,7 @@ body hr {
 	border: none;
 	border-radius: 1px;
 }
+/*Container 3 Menu/ Контейнер 3 Меню*//*///////////////////////////////////////////*/
 .conteiner_3Menu {
 	width: 894px;
 	height: 25px;
@@ -216,6 +226,7 @@ body hr {
 .conteiner_3Menu a:hover {
 	color: #ff3f40;
 }
+/*Container 3 Images/ Контейнер 3 Изображения*//*//////////////////////////////////////////////*/
 .container_3Items {
 	margin-top: 70px;
 	width: 1252px;
@@ -233,6 +244,7 @@ body hr {
 	width: 100%;
 	height: 100%;
 }
+/*Container 4/ Контейнер 4*//*/////////////////////////////////////////////////////////////*/
 .container_4 {
 	width: 1255px;
 	height: 723px;
@@ -256,6 +268,7 @@ body hr {
 	background-color: #ff3f40;
 	margin-left: 0px;
 }
+/*Container 4 ourTeamInfo/ Контейнер 4 Информация о комманде*//*///////////////////////////////////*/
 .ourTeamInfo {
 	width: 100%;
 	height: 458px;
@@ -273,7 +286,7 @@ body hr {
 }
 .personalData {
 	float: left;
-	width: 934px;/*/////////////////934/////////////////*/
+	width: 934px;
 	height: 460px;
 	float: left;
 	padding-left: 5%;
@@ -323,7 +336,10 @@ body hr {
 	width: 100%;
 	height: 100%;
 }
+/*Container 4 ourTeamInfo/ Контейнер 4 Информация о комманде*//*//////////////////////////////*/
 .personName {
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
 	transition: 0.8s;
 	width: 100%;
 	height: 37px;
@@ -339,6 +355,7 @@ body hr {
 .leftPhoto:hover .personName {
  	opacity: 0.6;
 }
+/*Container 5/ Контейнер 5*//*/////////////////////////////////////////*/
 .container_5 {
 	width: 1577px;
 	height: 514px;
@@ -366,6 +383,7 @@ body hr {
 	margin-top: 30px;
 	color: #FFFFFF;
 }
+/*Container 5 subscribeForm/ Контейнер 5 форма подписки*//*///////////////////////////////*/
 .subscribeFormInput {
 	width: 757px;
 	height: 79px;
@@ -377,7 +395,6 @@ body hr {
 	width: 517px;
 	height: 75px;
 	border: 2px solid #FFFFFF;
-	/*border: none;*/
 	border-radius: 10px;
 	margin-right: 22px;
 	float: left;
@@ -405,12 +422,18 @@ body hr {
 	color: #ff2d2d;
 	cursor: pointer;
 }
+/*Container 6/ Контейнер 6*//*/////////////////////////////////////////////////////*/
 .container_6 {
 	width: 1417px;
 	margin-top: 92px;
 	height: 760px;
 	margin-left: 162px;
 	clear: both;
+}
+.container_6LeftSide {
+	height: 783px;
+	width: 732px;
+	float: left;
 }
 .container_6Text {
 	width: 726px;
@@ -426,6 +449,12 @@ body hr {
 	background-color: #ff2d2d;
 	margin-left: 0px;
 	margin-bottom: 76px;
+}
+/*Container 6 FeedbackForm/ Контейнер 6 Форма обратной связи*//*/////////////////////////////////////*/
+#feedbackForm {
+	width: 773px;
+	height: 475px;
+	float: left;
 }
 #nameField {
 	outline: none;
@@ -449,11 +478,6 @@ body hr {
 	padding-left: 52px;
 	border-radius: 5px;
 	font-size: 16px;
-}
-#feedbackForm {
-	width: 773px;
-	height: 475px;
-	float: left;
 }
 textarea {
 	outline: none;
@@ -490,6 +514,7 @@ textarea:focus,
 	cursor: pointer;
 	color: #ff2d2d;
 }
+/*Container 6 contactInfo/ Контейнер 6 Контактная информация*//*/////////////////////////////////////*/
 .contactInfoContainer {
 	width: 577px;
 	height: 481px;
@@ -497,11 +522,6 @@ textarea:focus,
 	float: left;
 	margin-left: 107px;
 	margin-top: 285px;
-}
-.container_6LeftSide {
-	height: 783px;
-	width: 732px;
-	float: left;
 }
 .contactInfo {
 	width: 286px;
@@ -519,6 +539,7 @@ textarea:focus,
 	margin-bottom: 27px;
 	color: #FFFFFF;
 }
+/*Footer/ Футер*//*//////////////////////////////////////////////////////////////////////////////////////*/
 footer {
 	width: 100%;
 	height: 111px;
@@ -539,6 +560,7 @@ footer {
 	float: left;
 	color: #b8b8b8;
 }
+/*Footer Links/ Футер Ссылки*//*//////////////////////////////////////////////////////////////////////////////////////*/
 .footerLinks {
 	width: 185px;
 	height: 33px;
