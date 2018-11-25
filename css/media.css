@@ -134,6 +134,8 @@ footer {
 @media only screen and (max-width: 1024px) {/*////////////////////////////@Media 1024px///////////////////////////////*/
 * {
 transition: 0s;
+outline: none;
+cursor: default;
 }
 body{
 	width: 100%;
@@ -146,10 +148,6 @@ body{
 .menu {
 	width: 100%;
 }
-/* .menu a:active {
-	background-color: #ff3f40; 5555555555555555555555555555555555
-	color: #E0E0E0;
-} */
 header {
 	width: 100%;
 	height: 730px;
@@ -215,7 +213,7 @@ h1 {
 .container_3Items {
 	width: 100%;
 	height: 400px;
-	padding: 0 65px;
+	padding: 0 75px;
 }
 .container_3Item {
 	width: 197px;
@@ -227,6 +225,7 @@ h1 {
 }
 .conteiner_3Menu {
 	width: 800px;
+	margin-left: 95px;
 }
 .conteiner_3Menu a {
 	margin: 0 14px;
@@ -234,6 +233,8 @@ h1 {
 .container_4 {
 	width: 100%;
 	height: 723px;
+	margin-top: 0;
+	height: 600px;
 }
 .container_4 h2,
 .container_4 p,
@@ -269,5 +270,225 @@ h1 {
 .rightPhoto {
 	width: 146px;
 	height: 164px;
+}
+.personName {
+ 	opacity: 0.6;
+}
+.container_5 {
+	width: 100%;
+}
+.container_5Text {
+	width: 100%;
+}
+.container_5Text h2 {
+	font-size:38px;
+}
+.container_6 {
+	width: 952px;
+	height: 783px;
+	margin-top: 55px;
+	margin-left: 55px;
+	margin-right: 0;
+}
+.container_6LeftSide {
+	width: 532px;
+}
+.container_6Text {
+	width: 532px;
+}
+.container_6Text h2 {
+	margin-bottom: 30px;
+}
+.container_6 hr {
+	margin-bottom: 46px;
+}
+#feedbackForm {
+	width: 532px;
+}
+#nameField {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+#emailField {
+	width: 100%;
+	margin-bottom: 20px;
+}
+textarea {
+	margin-top: 0px;
+	width: 100%;
+	padding-left: 52px;
+	padding-top: 33px;
+}
+#feedbackButton {
+	width: 100%;
+}
+.contactInfoContainer {
+	width: 380px;
+	height: 533px;
+	margin-top: 250px;
+	margin-left: 40px;
+}
+footer {
+	width: 100%;
+	margin-top: 40px;
+}
+.footerContent {
+	width: 800px;
+}
+.menu a:active {
+	background-color: #ff3f40;
+	color: #E0E0E0;
+}
+#contactUsButton:active {
+	background-color: white;
+	cursor: pointer;
+}
+#contactUsButton:active a {
+	color: #ff3f40;
+}
+#learnMoreButton:active {
+	background-color: #ff3f40;
+	cursor: pointer;
+}
+#learnMoreButton:active a {
+	color: white;
+}
+.conteiner_3Menu a:active {
+	color: #ff3f40;
+}
+.personalDataLinks a:active {
+	color: #ff3f40;
+}
+#subscribeButton:active {
+	background-color: #FFFFFF;
+	border: 2px solid #ff2d2d;
+	color: #ff2d2d;
+	cursor: pointer;
+}
+#feedbackButton:active {
+	background-color: #FFFFFF;
+	cursor: pointer;
+	color: #ff2d2d;
+}
+@media only screen and (max-width: 768px) {/*////////////////////////////@Media 768px///////////////////////////////*/
+iframe {
+	width: 718px;
+	left: 25px;
+}
+.headerLeftItem {
+	width: 718px;
+	margin-left: 25px;
+}
+.container_2 {
+	margin-top: 50px;
+}
+.container_2LeftItem h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.container_2RightItems{
+	width: 718px;
+	margin-left: 35px;
+}
+#learnMoreButton {
+	left: 250px;
+}
+.container_3 {
+	height: 650px;
+}
+.conteiner_3Menu {
+	width: 700px;
+	margin-left: 25px;
+}
+.conteiner_3Menu a {
+	margin: 0 10px;
+	font-size: 18px;
+}
+.container_3Items {
+	margin-top: 30px;
+	width: 100%;
+	height: 350px;
+	padding: 0 31px;
+}
+.container_3Item {
+	width: 157px;
+	height: 150px;
+}
+.container_4 h2,
+.container_4 p,
+.container_4 hr {
+	margin-left: 25px;
+}
+.leftPhoto {
+	margin-left: 25px;
+}
+.personalData {
+	width: 500px;
+}
+.personalData p,
+.personalData h3 {
+	margin-left: 10px;
+}
+.personalData p {
+	width: 400px;
+}
+.personalDataText {
+	width: 100%;
+}
+.rightPhotoContainer {
+	width: 480px;
+	height: 150px;
+}
+.rightPhoto {
+	width: 110px;
+	height: 150px;
+	margin-left: 0;
+}
+.container_5 {
+	width: 100%;
+	margin-top: 55px;
+	padding-top: 55px;
+	height: 400px;
+}
+.subscribeFormInput {
+	width: 450px;
+	height: 65px;
+}
+#subscribeEMail {
+	width: 317px;
+	height: 55px;
+}
+#subscribeButton {
+	width: 110px;
+	height: 55px;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.container_6 {
+	width: 726px;
+	margin-left: 25px;
+}
+.container_6LeftSide {
+	width: 400px;
+}
+#feedbackForm {
+	width: 100%;
+	height: 533px;
+}
+.contactInfoContainer {
+	width: 306px;
+	margin-left: 20px;
+}
+.contactInfo {
+	margin-left: 25px;
+}
+footer {
+	width: 100%;
+	margin-top: 40px;
+}
+.footerContent {
+	width: 80%;
+	margin-left: 50px;
 }
 }
