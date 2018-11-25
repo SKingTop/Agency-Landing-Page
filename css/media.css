@@ -492,3 +492,43 @@ footer {
 	margin-left: 50px;
 }
 }
+@media only screen and (max-width: 600px) {/*////////////////////////////@Media 600px///////////////////////////////*/
+iframe {
+	width: 533px;
+	height: 300px;
+	left: 25px;
+}
+header {
+	margin-top: 50px;
+	height: 630px;
+}
+h1 {
+	width: 533px;
+	font-size: 42px;
+}
+.headerLeftItem p {
+	width: 533px;
+	line-height: 25px;
+}
+#contactUsButton {
+	margin-top: 25px;
+}
+.container_2 {
+	height: 800px;
+}
+.container_2LeftItem p {
+	height: 100px;
+}
+.container_2RightItems{
+	width: 100%;
+	margin-left: 60px;
+	top: 190px;
+}
+.container_2RightItem {
+	width: 40%;
+}
+#learnMoreButton {
+	top: 680px;
+	left: 150px;
+}
+}
